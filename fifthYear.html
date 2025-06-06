@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifth Year</title>
+    <link rel="stylesheet" href="years.css">
+</head>
+<body>  
+        <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+
+
+        <div class="myList" id="menuList">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="firstYear.html">📁 First Year </a>
+            <ul>
+                <a href="#"><li>First semester</li></a>
+                <a href="#"><li>Second semester</li></a>
+            </ul>
+            </li>
+            <li><a href="secndYear.html">📁 Second Year </a>
+            <ul>
+                <a href="#"><li>First semester</li></a>
+                <a href="#"><li>Second semester</li></a>
+            </ul>
+            </li>
+            <li><a href="thirdYear.html">📁 Third Year </a>
+            <ul>
+            <a href="#"><li>First semester</li></a>
+                <a href="#"><li>Second semester</li></a>
+            </ul>
+            </li>
+            <li><a href="fourthYear.html">📁 Fourth Year </a>
+            <ul>
+                <a href="#"><li>First semester</li></a>
+                <a href="#"><li>Second semester</li></a>
+            </ul>
+            </li>
+            <li><a href="fifthYear.html">📁 Fifth Year </a>
+            <ul>
+                <a href="#"><li>First semester</li></a>
+                <a href="#"><li>Second semester</li></a>
+            </ul>
+            </li>
+        </ul>
+        </div>
+        <div  class="containar" >
+            <h1>Fifth Year</h1>
+            <a class="semester" href="semester1.html"> First semester</a>
+            <a class="semester" href="semester2.html"> Second semester</a>
+
+
+        </div>
+    <script>
+    function toggleMenu() {
+    const menu = document.getElementById('menuList');
+    menu.classList.toggle('show');
+  }
+  </script>
+</body>
+</html>
